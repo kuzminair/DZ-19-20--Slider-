@@ -10,7 +10,6 @@
     flex-direction: column;
     align-items: center;
     background-color: darkgrey;
-    
 }
 #myRange {
     width: 100%;
@@ -26,4 +25,5 @@
 }
 #blue{
     background-color: blue;
+    bottom: 0px;
 }
