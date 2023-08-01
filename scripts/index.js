@@ -23,9 +23,9 @@ function chahgeSlider() {
         container.style.backgroundColor=`rgb(${slider.value}, ${slider.value}, ${slider.value})`;
         red.style.position = 'absolute';
         blue.style.position = 'absolute';
-        let blueleft = (container.clientWidth*slider.value)/255-300;
-        blue.style.left = `${blueleft}px`;        
-        let redleft = (container.clientWidth*(255-slider.value))/255-55;
+        let redleft = (container.clientWidth*slider.value)/255-55;
         red.style.left = `${redleft}px`;
+        let blueleft = (container.clientWidth*(255-slider.value))/255-300;
+        blue.style.left = `${blueleft}px`;        
     }
 }
